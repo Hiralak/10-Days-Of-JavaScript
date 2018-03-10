@@ -13,7 +13,7 @@ function simpleArraySum(n, ar) {
 function main() {
     var n = parseInt(readLine());
     ar = readLine().split(' ');
-    ar = ar.map(Number);
+    ar = ar.map(Number); 
     var result = simpleArraySum(n, ar);
     process.stdout.write("" + result + "\n");
 
